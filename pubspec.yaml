@@ -1,0 +1,30 @@
+name: diya_alqalb
+description: "Diya Al Qalb: Light Your Heart with the Holy Quran. A modern, serene experience designed to help you memorize, revise, and reflect on the Quran with ease and focus."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  fonts:
+    - family: DINNextLTArabic
+      fonts:
+        - asset: assets/fonts/alfont_com_AlFont_com_DINNextLTArabic-Regular.ttf
+         
