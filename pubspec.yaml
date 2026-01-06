@@ -1,0 +1,50 @@
+name: diya_alqalb
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  http: ^1.1.0           # للاتصال بالسيرفر
+  geolocator: ^13.0.2   # لتحديد الموقع
+  intl: ^0.20.2       # لتنسيق الوقت والتاريخ
+  flutter_compass: ^0.8.1
+  permission_handler: ^11.0.0 # لإدارة الصلاحيات (اختياري ولكنه مفضل)
+  share_plus: ^10.1.4 # لمشاركة الأذكار
+  flutter_local_notifications: ^18.0.1 # للإشعارات المحلية
+  timezone: ^0.10.0 # لإدارة المناطق الزمنية
+  flutter_islamic_icons: ^1.0.2
+  audioplayers: ^6.0.0      # للقرآن والتفسير الصوتي
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/json/azkar.json
+    - assets/json/nawawi.json
+    - assets/images/
+
+
+  fonts:
+    - family: DINNextLTArabic
+      fonts:
+        - asset: assets/fonts/alfont_com_AlFont_com_DINNextLTArabic-Regular.ttf
+
+
+    - family: UthmanicHafs
+      fonts:
+        - asset: assets/fonts/UthmanicHafs_V20.ttf
+
+         
